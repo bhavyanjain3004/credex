@@ -1,6 +1,6 @@
 # ARCHITECTURE.md — StackLeak
 
-> AI Spend Audit Tool · Credex Internship Assignment · Solo Build · 7-Day Sprint
+> AI Spend Audit Tool · Credex Internship Assignment 
 
 ---
 
@@ -10,7 +10,7 @@
 |---|---|---|
 | **Frontend** | Next.js 14 (App Router) + TypeScript | SSR/SSG out of the box boosts Lighthouse Performance; App Router gives clean file-based routing; TypeScript is preferred per spec; no extra backend server needed (API Routes handle everything) |
 | **Audit Engine** | Next.js API Route (`/api/audit`) | Keeps logic server-side (no bundle bloat), easy to unit test, zero cold-start on Vercel Edge Runtime |
-| **Tool Pricing DB** | Static JSON (`/data/tools.json`) bundled at build time | 7-day scope — no CMS needed; update via PR; eliminates a round-trip; easily swapped for a DB table later |
+| **Tool Pricing DB** | Static JSON (`/data/tools.json`) bundled at build time | no CMS needed; update via PR; eliminates a round-trip; easily swapped for a DB table later |
 | **Lead Storage** | Supabase (Postgres) | Free tier handles thousands of leads; Row Level Security built in; real Postgres means SQL familiarity; Supabase JS client works seamlessly in API Routes |
 | **Shareable URLs** | URL-encoded query params + Supabase row `slug` | No extra infra; slug stored at lead capture time; results page re-hydrates from slug on load |
 | **Deployment** | Vercel | First-class Next.js support; Edge Network improves TTFB globally; Preview Deployments per PR; free tier more than sufficient |
