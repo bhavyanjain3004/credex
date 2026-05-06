@@ -1,4 +1,4 @@
-# StackLeak — by Credex
+# StackLeak
 
 > **Find your leaks. Free.**
 
