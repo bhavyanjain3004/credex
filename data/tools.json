@@ -1,0 +1,45 @@
+[
+  {
+    "name": "ChatGPT",
+    "canonicalMonthly": 20,
+    "tags": ["llm", "chat", "writing"],
+    "alternatives": [
+      { "name": "Claude", "plan": "Pro", "monthlyCost": 20, "url": "https://claude.ai" },
+      { "name": "Gemini Advanced", "plan": "Pro", "monthlyCost": 20, "url": "https://gemini.google.com" }
+    ]
+  },
+  {
+    "name": "GitHub Copilot",
+    "canonicalMonthly": 10,
+    "tags": ["code", "ide"],
+    "alternatives": [
+      { "name": "Cursor", "plan": "Pro", "monthlyCost": 20, "url": "https://cursor.sh" },
+      { "name": "Codeium", "plan": "Free", "monthlyCost": 0, "url": "https://codeium.com" }
+    ]
+  },
+  {
+    "name": "Midjourney",
+    "canonicalMonthly": 10,
+    "tags": ["image", "creative"],
+    "alternatives": [
+      { "name": "Leonardo.ai", "plan": "Apprentice", "monthlyCost": 12, "url": "https://leonardo.ai" },
+      { "name": "DALL·E (via API)", "plan": "Pay-per-use", "monthlyCost": 5, "url": "https://openai.com" }
+    ]
+  },
+  {
+    "name": "Notion AI",
+    "canonicalMonthly": 10,
+    "tags": ["writing", "productivity"],
+    "alternatives": [
+      { "name": "ChatGPT", "plan": "Plus", "monthlyCost": 20, "url": "https://chat.openai.com" }
+    ]
+  },
+  {
+    "name": "Grammarly",
+    "canonicalMonthly": 12,
+    "tags": ["writing", "grammar"],
+    "alternatives": [
+      { "name": "LanguageTool", "plan": "Premium", "monthlyCost": 5, "url": "https://languagetool.org" }
+    ]
+  }
+]
